@@ -13,6 +13,7 @@ Lite hjälp på vägen...det finns inte instruktioner på hur man skapar en Func
 Steg 3: Om du vill jobba vidare med Functions så rekommenderar jag att använda en Azure Functions Extension för VisualStudio. Denna är dock i preview tills detta fungerar helt i VS2017 och fungerar endast med C# för närvarande. Här får du möjlighet att:
 	• Debugga med breakpoints
 	• Sätta upp Continous Integration med tex. Git
+
 Labba gärna med detta :)!
 
 Steg 4: Om du vill göra ännu mer så lägg till möjligheten att skicka dina LogicApp loggar till EventHub för felhantering mm. Läs mer här: https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-scenario-error-and-exception-handling. Utnyttja det ni lärde er i en tidigare session med EventHub, StreamAnalytics och PowerBI för att tex. visualisera olika fel.
