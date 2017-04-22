@@ -62,9 +62,9 @@ Labba gärna med detta :)!
 **Step 2:** https://channel9.msdn.com/Blogs/Azure/Azure-Logic-Apps-Walkthrough-Webhook-Functions-and-an-SMS-Bot?ocid=player
 
 Some help on your way...there are no instruction on how to create a Function in the video:
-	- Create a new Function App
-	- Add a function ("HttpTrigger-JavaScript"). Tip! The name of your function will be used in the last step of the LogicApp.
-	- Paste this code (index.js): (https://github.com/logicappsio/AzureFunction-URLFormDecoder/blob/master/function.js)
+- Create a new Function App
+- Add a function ("HttpTrigger-JavaScript"). Tip! The name of your function will be used in the last step of the LogicApp.
+- Paste this code (index.js): (https://github.com/logicappsio/AzureFunction-URLFormDecoder/blob/master/function.js)
 	
 
 ```javascript
@@ -91,7 +91,7 @@ var http = require('https');
         return query;
 	}
 ```
-	- Test your function with for example: "form": "Hello=world&foo=bar+foox&test=again"
+- Test your function with for example: "form": "Hello=world&foo=bar+foox&test=again"
 
 **Step 3:** If you would like to do more on Functions, try and use the VS extension for Functions and you will be able to:
 	- Debug as usual with breakpoints.
